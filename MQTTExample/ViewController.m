@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "AppDelegate.h"
 
+#define kTopic @"/MQTTExample/LED"
 @interface ViewController ()
 
 @end
@@ -19,7 +20,7 @@
     AppDelegate *app = [[UIApplication sharedApplication] delegate];
     BOOL on = [sender isOn];
     [app.mqttClient publishString:[NSString stringWithFormat:@"%d", on]
-                          toTopic:@"MQTTExample/LED"
+                          toTopic:kTopic
                           withQos:0
                            retain:YES];
 }
@@ -29,7 +30,7 @@
 
 - (void)client:(MQTTClient *)client didConnect:(NSUInteger)code
 {
-    [client subscribe:@"MQTTExample/LED"];
+    [client subscribe:kTopic];
 }
 
 - (void)client:(MQTTClient *)client didReceiveMessage:(MQTTMessage *)message
