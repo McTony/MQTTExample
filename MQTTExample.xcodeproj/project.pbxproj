@@ -1,1086 +1,951 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1B375B1EC9454992ACF71C20</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4AD545F1300F4C2FAB9F8045</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>817BC2070D674A43BDE466E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B375B1EC9454992ACF71C20</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333DC181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333EE181A9B1E00B50CA8</string>
-				<string>9393340D181A9B1E00B50CA8</string>
-				<string>939333E7181A9B1E00B50CA8</string>
-				<string>939333E6181A9B1E00B50CA8</string>
-				<string>AC799EBD6C1F4626A2A10CF3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333DD181A9B1E00B50CA8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Jeff Mesnil</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>93933405181A9B1E00B50CA8</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>939333E4181A9B1E00B50CA8</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>939333E0181A9B1E00B50CA8</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>939333DC181A9B1E00B50CA8</string>
-			<key>productRefGroup</key>
-			<string>939333E6181A9B1E00B50CA8</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>939333E4181A9B1E00B50CA8</string>
-				<string>93933405181A9B1E00B50CA8</string>
-			</array>
-		</dict>
-		<key>939333E0181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>93933415181A9B1E00B50CA8</string>
-				<string>93933416181A9B1E00B50CA8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>939333E1181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>939333FF181A9B1E00B50CA8</string>
-				<string>939333F9181A9B1E00B50CA8</string>
-				<string>939333F5181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>939333E2181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>939333EB181A9B1E00B50CA8</string>
-				<string>939333ED181A9B1E00B50CA8</string>
-				<string>939333E9181A9B1E00B50CA8</string>
-				<string>817BC2070D674A43BDE466E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>939333E3181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>93933401181A9B1E00B50CA8</string>
-				<string>939333F3181A9B1E00B50CA8</string>
-				<string>939333FC181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>939333E4181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>93933417181A9B1E00B50CA8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4AD545F1300F4C2FAB9F8045</string>
-				<string>939333E1181A9B1E00B50CA8</string>
-				<string>939333E2181A9B1E00B50CA8</string>
-				<string>939333E3181A9B1E00B50CA8</string>
-				<string>E58E3471A4F947949B005080</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MQTTExample</string>
-			<key>productName</key>
-			<string>MQTTExample</string>
-			<key>productReference</key>
-			<string>939333E5181A9B1E00B50CA8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>939333E5181A9B1E00B50CA8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MQTTExample.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>939333E6181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333E5181A9B1E00B50CA8</string>
-				<string>93933406181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333E7181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333E8181A9B1E00B50CA8</string>
-				<string>939333EA181A9B1E00B50CA8</string>
-				<string>939333EC181A9B1E00B50CA8</string>
-				<string>93933407181A9B1E00B50CA8</string>
-				<string>1B375B1EC9454992ACF71C20</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333E8181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>939333E9181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333E8181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333EA181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>939333EB181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333EA181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333EC181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>939333ED181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333EC181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333EE181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333F7181A9B1E00B50CA8</string>
-				<string>939333F8181A9B1E00B50CA8</string>
-				<string>939333FA181A9B1E00B50CA8</string>
-				<string>939333FD181A9B1E00B50CA8</string>
-				<string>939333FE181A9B1E00B50CA8</string>
-				<string>93933400181A9B1E00B50CA8</string>
-				<string>939333EF181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MQTTExample</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333EF181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333F0181A9B1E00B50CA8</string>
-				<string>939333F1181A9B1E00B50CA8</string>
-				<string>939333F4181A9B1E00B50CA8</string>
-				<string>939333F6181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F0181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>MQTTExample-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F1181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333F2181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F2181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F3181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333F1181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333F4181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F5181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333F4181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333F6181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MQTTExample-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F7181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F8181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333F9181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333F8181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333FA181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>939333FB181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333FB181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333FC181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333FA181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>939333FD181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333FE181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939333FF181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333FE181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93933400181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93933401181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93933400181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93933402181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>93933414181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>93933403181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>93933408181A9B1E00B50CA8</string>
-				<string>9393340A181A9B1E00B50CA8</string>
-				<string>93933409181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>93933404181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>93933412181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>93933405181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9393341A181A9B1E00B50CA8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>93933402181A9B1E00B50CA8</string>
-				<string>93933403181A9B1E00B50CA8</string>
-				<string>93933404181A9B1E00B50CA8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9393340C181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MQTTExampleTests</string>
-			<key>productName</key>
-			<string>MQTTExampleTests</string>
-			<key>productReference</key>
-			<string>93933406181A9B1E00B50CA8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>93933406181A9B1E00B50CA8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MQTTExampleTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>93933407181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>93933408181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93933407181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93933409181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333E8181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9393340A181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939333EC181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9393340B181A9B1E00B50CA8</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>939333DD181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>939333E4181A9B1E00B50CA8</string>
-			<key>remoteInfo</key>
-			<string>MQTTExample</string>
-		</dict>
-		<key>9393340C181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>939333E4181A9B1E00B50CA8</string>
-			<key>targetProxy</key>
-			<string>9393340B181A9B1E00B50CA8</string>
-		</dict>
-		<key>9393340D181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93933413181A9B1E00B50CA8</string>
-				<string>9393340E181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MQTTExampleTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9393340E181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9393340F181A9B1E00B50CA8</string>
-				<string>93933410181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9393340F181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>MQTTExampleTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93933410181A9B1E00B50CA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93933411181A9B1E00B50CA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93933411181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93933412181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93933410181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93933413181A9B1E00B50CA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MQTTExampleTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93933414181A9B1E00B50CA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93933413181A9B1E00B50CA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93933415181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>93933416181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>93933417181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>93933418181A9B1E00B50CA8</string>
-				<string>93933419181A9B1E00B50CA8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>93933418181A9B1E00B50CA8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AC799EBD6C1F4626A2A10CF3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>MQTTExample/MQTTExample-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MQTTExample/MQTTExample-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>93933419181A9B1E00B50CA8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AC799EBD6C1F4626A2A10CF3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>MQTTExample/MQTTExample-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MQTTExample/MQTTExample-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9393341A181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9393341B181A9B1E00B50CA8</string>
-				<string>9393341C181A9B1E00B50CA8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9393341B181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/MQTTExample.app/MQTTExample</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>MQTTExample/MQTTExample-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>MQTTExampleTests/MQTTExampleTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9393341C181A9B1E00B50CA8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/MQTTExample.app/MQTTExample</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>MQTTExample/MQTTExample-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MQTTExampleTests/MQTTExampleTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AC799EBD6C1F4626A2A10CF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E58E3471A4F947949B005080</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>939333DD181A9B1E00B50CA8</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817BC2070D674A43BDE466E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B375B1EC9454992ACF71C20 /* libPods.a */; };
+		93227B3D181ACDFF002BE6BB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 93227AD7181ACDFF002BE6BB /* .gitignore */; };
+		93227B3E181ACDFF002BE6BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 93227AD8181ACDFF002BE6BB /* LICENSE */; };
+		93227B3F181ACDFF002BE6BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227ADB181ACDFF002BE6BB /* AppDelegate.m */; };
+		93227B40181ACDFF002BE6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93227ADC181ACDFF002BE6BB /* Main.storyboard */; };
+		93227B41181ACDFF002BE6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93227ADE181ACDFF002BE6BB /* InfoPlist.strings */; };
+		93227B42181ACDFF002BE6BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93227AE0181ACDFF002BE6BB /* Images.xcassets */; };
+		93227B43181ACDFF002BE6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227AE1181ACDFF002BE6BB /* main.m */; };
+		93227B44181ACDFF002BE6BB /* MQTTExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93227AE2181ACDFF002BE6BB /* MQTTExample-Info.plist */; };
+		93227B45181ACDFF002BE6BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227AE5181ACDFF002BE6BB /* ViewController.m */; };
+		93227B46181ACDFF002BE6BB /* MQTTExample.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 93227AE9181ACDFF002BE6BB /* MQTTExample.xcworkspace */; };
+		93227B47181ACDFF002BE6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93227AEB181ACDFF002BE6BB /* InfoPlist.strings */; };
+		93227B48181ACDFF002BE6BB /* MQTTExampleTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93227AED181ACDFF002BE6BB /* MQTTExampleTests-Info.plist */; };
+		93227B49181ACDFF002BE6BB /* MQTTExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227AEE181ACDFF002BE6BB /* MQTTExampleTests.m */; };
+		93227B4A181ACDFF002BE6BB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93227AEF181ACDFF002BE6BB /* Podfile */; };
+		93227B4B181ACDFF002BE6BB /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 93227AF0181ACDFF002BE6BB /* Podfile.lock */; };
+		93227B4C181ACDFF002BE6BB /* MQTTKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 93227B08181ACDFF002BE6BB /* MQTTKit.podspec */; };
+		93227B4D181ACDFF002BE6BB /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 93227B09181ACDFF002BE6BB /* Manifest.lock */; };
+		93227B4E181ACDFF002BE6BB /* logging_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B0E181ACDFF002BE6BB /* logging_mosq.c */; };
+		93227B4F181ACDFF002BE6BB /* memory_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B10181ACDFF002BE6BB /* memory_mosq.c */; };
+		93227B50181ACDFF002BE6BB /* messages_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B12181ACDFF002BE6BB /* messages_mosq.c */; };
+		93227B51181ACDFF002BE6BB /* mosquitto.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B14181ACDFF002BE6BB /* mosquitto.c */; };
+		93227B52181ACDFF002BE6BB /* net_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B18181ACDFF002BE6BB /* net_mosq.c */; };
+		93227B53181ACDFF002BE6BB /* read_handle.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B1A181ACDFF002BE6BB /* read_handle.c */; };
+		93227B54181ACDFF002BE6BB /* read_handle_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B1C181ACDFF002BE6BB /* read_handle_client.c */; };
+		93227B55181ACDFF002BE6BB /* read_handle_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B1D181ACDFF002BE6BB /* read_handle_shared.c */; };
+		93227B56181ACDFF002BE6BB /* send_client_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B1E181ACDFF002BE6BB /* send_client_mosq.c */; };
+		93227B57181ACDFF002BE6BB /* send_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B1F181ACDFF002BE6BB /* send_mosq.c */; };
+		93227B58181ACDFF002BE6BB /* thread_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B21181ACDFF002BE6BB /* thread_mosq.c */; };
+		93227B59181ACDFF002BE6BB /* time_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B22181ACDFF002BE6BB /* time_mosq.c */; };
+		93227B5A181ACDFF002BE6BB /* tls_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B24181ACDFF002BE6BB /* tls_mosq.c */; };
+		93227B5B181ACDFF002BE6BB /* util_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B26181ACDFF002BE6BB /* util_mosq.c */; };
+		93227B5C181ACDFF002BE6BB /* will_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 93227B28181ACDFF002BE6BB /* will_mosq.c */; };
+		93227B5D181ACDFF002BE6BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 93227B2A181ACDFF002BE6BB /* LICENSE */; };
+		93227B5E181ACDFF002BE6BB /* MQTTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227B2D181ACDFF002BE6BB /* MQTTKit.m */; };
+		93227B5F181ACDFF002BE6BB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 93227B2E181ACDFF002BE6BB /* README.md */; };
+		93227B60181ACDFF002BE6BB /* Pods-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 93227B2F181ACDFF002BE6BB /* Pods-acknowledgements.markdown */; };
+		93227B61181ACDFF002BE6BB /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93227B30181ACDFF002BE6BB /* Pods-acknowledgements.plist */; };
+		93227B62181ACDFF002BE6BB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227B31181ACDFF002BE6BB /* Pods-dummy.m */; };
+		93227B63181ACDFF002BE6BB /* Pods-MQTTKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93227B33181ACDFF002BE6BB /* Pods-MQTTKit-dummy.m */; };
+		93227B64181ACDFF002BE6BB /* Pods-MQTTKit-Private.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93227B35181ACDFF002BE6BB /* Pods-MQTTKit-Private.xcconfig */; };
+		93227B65181ACDFF002BE6BB /* Pods-MQTTKit.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93227B36181ACDFF002BE6BB /* Pods-MQTTKit.xcconfig */; };
+		93227B66181ACDFF002BE6BB /* Pods-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 93227B37181ACDFF002BE6BB /* Pods-resources.sh */; };
+		93227B67181ACDFF002BE6BB /* Pods.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93227B38181ACDFF002BE6BB /* Pods.xcconfig */; };
+		93227B68181ACDFF002BE6BB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 93227B3C181ACDFF002BE6BB /* README.md */; };
+		939333E9181A9B1E00B50CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939333E8181A9B1E00B50CA8 /* Foundation.framework */; };
+		939333EB181A9B1E00B50CA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939333EA181A9B1E00B50CA8 /* CoreGraphics.framework */; };
+		939333ED181A9B1E00B50CA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939333EC181A9B1E00B50CA8 /* UIKit.framework */; };
+		939333F3181A9B1E00B50CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939333F1181A9B1E00B50CA8 /* InfoPlist.strings */; };
+		939333F5181A9B1E00B50CA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939333F4181A9B1E00B50CA8 /* main.m */; };
+		939333F9181A9B1E00B50CA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939333F8181A9B1E00B50CA8 /* AppDelegate.m */; };
+		939333FC181A9B1E00B50CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939333FA181A9B1E00B50CA8 /* Main.storyboard */; };
+		939333FF181A9B1E00B50CA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939333FE181A9B1E00B50CA8 /* ViewController.m */; };
+		93933401181A9B1E00B50CA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93933400181A9B1E00B50CA8 /* Images.xcassets */; };
+		93933408181A9B1E00B50CA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93933407181A9B1E00B50CA8 /* XCTest.framework */; };
+		93933409181A9B1E00B50CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939333E8181A9B1E00B50CA8 /* Foundation.framework */; };
+		9393340A181A9B1E00B50CA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939333EC181A9B1E00B50CA8 /* UIKit.framework */; };
+		93933412181A9B1E00B50CA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93933410181A9B1E00B50CA8 /* InfoPlist.strings */; };
+		93933414181A9B1E00B50CA8 /* MQTTExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93933413181A9B1E00B50CA8 /* MQTTExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93227B6B181ACDFF002BE6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93227B39181ACDFF002BE6BB /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C19D2AEA85554178B22F6FA0;
+			remoteInfo = Pods;
+		};
+		93227B6D181ACDFF002BE6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93227B39181ACDFF002BE6BB /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9EFCB6D4D24848889D52CF75;
+			remoteInfo = "Pods-MQTTKit";
+		};
+		9393340B181A9B1E00B50CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939333DD181A9B1E00B50CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939333E4181A9B1E00B50CA8;
+			remoteInfo = MQTTExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B375B1EC9454992ACF71C20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93227AD7181ACDFF002BE6BB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		93227AD8181ACDFF002BE6BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93227ADA181ACDFF002BE6BB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93227ADB181ACDFF002BE6BB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93227ADD181ACDFF002BE6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93227ADF181ACDFF002BE6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93227AE0181ACDFF002BE6BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93227AE1181ACDFF002BE6BB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93227AE2181ACDFF002BE6BB /* MQTTExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MQTTExample-Info.plist"; sourceTree = "<group>"; };
+		93227AE3181ACDFF002BE6BB /* MQTTExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQTTExample-Prefix.pch"; sourceTree = "<group>"; };
+		93227AE4181ACDFF002BE6BB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93227AE5181ACDFF002BE6BB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93227AE6181ACDFF002BE6BB /* MQTTExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MQTTExample.xcodeproj; sourceTree = "<group>"; };
+		93227AE9181ACDFF002BE6BB /* MQTTExample.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = MQTTExample.xcworkspace; sourceTree = "<group>"; };
+		93227AEC181ACDFF002BE6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93227AED181ACDFF002BE6BB /* MQTTExampleTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MQTTExampleTests-Info.plist"; sourceTree = "<group>"; };
+		93227AEE181ACDFF002BE6BB /* MQTTExampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTExampleTests.m; sourceTree = "<group>"; };
+		93227AEF181ACDFF002BE6BB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		93227AF0181ACDFF002BE6BB /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		93227AF4181ACDFF002BE6BB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		93227AF5181ACDFF002BE6BB /* dummypthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummypthread.h; sourceTree = "<group>"; };
+		93227AF6181ACDFF002BE6BB /* logging_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_mosq.h; sourceTree = "<group>"; };
+		93227AF7181ACDFF002BE6BB /* memory_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_mosq.h; sourceTree = "<group>"; };
+		93227AF8181ACDFF002BE6BB /* messages_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages_mosq.h; sourceTree = "<group>"; };
+		93227AF9181ACDFF002BE6BB /* mosquitto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto.h; sourceTree = "<group>"; };
+		93227AFA181ACDFF002BE6BB /* mosquitto_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto_internal.h; sourceTree = "<group>"; };
+		93227AFB181ACDFF002BE6BB /* mqtt3_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqtt3_protocol.h; sourceTree = "<group>"; };
+		93227AFC181ACDFF002BE6BB /* MQTTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTKit.h; sourceTree = "<group>"; };
+		93227AFD181ACDFF002BE6BB /* net_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net_mosq.h; sourceTree = "<group>"; };
+		93227AFE181ACDFF002BE6BB /* read_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read_handle.h; sourceTree = "<group>"; };
+		93227AFF181ACDFF002BE6BB /* send_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = send_mosq.h; sourceTree = "<group>"; };
+		93227B00181ACDFF002BE6BB /* time_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time_mosq.h; sourceTree = "<group>"; };
+		93227B01181ACDFF002BE6BB /* tls_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls_mosq.h; sourceTree = "<group>"; };
+		93227B02181ACDFF002BE6BB /* util_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_mosq.h; sourceTree = "<group>"; };
+		93227B03181ACDFF002BE6BB /* will_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = will_mosq.h; sourceTree = "<group>"; };
+		93227B06181ACDFF002BE6BB /* MQTTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTKit.h; sourceTree = "<group>"; };
+		93227B08181ACDFF002BE6BB /* MQTTKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MQTTKit.podspec; sourceTree = "<group>"; };
+		93227B09181ACDFF002BE6BB /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		93227B0C181ACDFF002BE6BB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		93227B0D181ACDFF002BE6BB /* dummypthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummypthread.h; sourceTree = "<group>"; };
+		93227B0E181ACDFF002BE6BB /* logging_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logging_mosq.c; sourceTree = "<group>"; };
+		93227B0F181ACDFF002BE6BB /* logging_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_mosq.h; sourceTree = "<group>"; };
+		93227B10181ACDFF002BE6BB /* memory_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory_mosq.c; sourceTree = "<group>"; };
+		93227B11181ACDFF002BE6BB /* memory_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_mosq.h; sourceTree = "<group>"; };
+		93227B12181ACDFF002BE6BB /* messages_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = messages_mosq.c; sourceTree = "<group>"; };
+		93227B13181ACDFF002BE6BB /* messages_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages_mosq.h; sourceTree = "<group>"; };
+		93227B14181ACDFF002BE6BB /* mosquitto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mosquitto.c; sourceTree = "<group>"; };
+		93227B15181ACDFF002BE6BB /* mosquitto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto.h; sourceTree = "<group>"; };
+		93227B16181ACDFF002BE6BB /* mosquitto_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto_internal.h; sourceTree = "<group>"; };
+		93227B17181ACDFF002BE6BB /* mqtt3_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqtt3_protocol.h; sourceTree = "<group>"; };
+		93227B18181ACDFF002BE6BB /* net_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net_mosq.c; sourceTree = "<group>"; };
+		93227B19181ACDFF002BE6BB /* net_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net_mosq.h; sourceTree = "<group>"; };
+		93227B1A181ACDFF002BE6BB /* read_handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle.c; sourceTree = "<group>"; };
+		93227B1B181ACDFF002BE6BB /* read_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read_handle.h; sourceTree = "<group>"; };
+		93227B1C181ACDFF002BE6BB /* read_handle_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle_client.c; sourceTree = "<group>"; };
+		93227B1D181ACDFF002BE6BB /* read_handle_shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle_shared.c; sourceTree = "<group>"; };
+		93227B1E181ACDFF002BE6BB /* send_client_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = send_client_mosq.c; sourceTree = "<group>"; };
+		93227B1F181ACDFF002BE6BB /* send_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = send_mosq.c; sourceTree = "<group>"; };
+		93227B20181ACDFF002BE6BB /* send_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = send_mosq.h; sourceTree = "<group>"; };
+		93227B21181ACDFF002BE6BB /* thread_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread_mosq.c; sourceTree = "<group>"; };
+		93227B22181ACDFF002BE6BB /* time_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time_mosq.c; sourceTree = "<group>"; };
+		93227B23181ACDFF002BE6BB /* time_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time_mosq.h; sourceTree = "<group>"; };
+		93227B24181ACDFF002BE6BB /* tls_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tls_mosq.c; sourceTree = "<group>"; };
+		93227B25181ACDFF002BE6BB /* tls_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls_mosq.h; sourceTree = "<group>"; };
+		93227B26181ACDFF002BE6BB /* util_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util_mosq.c; sourceTree = "<group>"; };
+		93227B27181ACDFF002BE6BB /* util_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_mosq.h; sourceTree = "<group>"; };
+		93227B28181ACDFF002BE6BB /* will_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = will_mosq.c; sourceTree = "<group>"; };
+		93227B29181ACDFF002BE6BB /* will_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = will_mosq.h; sourceTree = "<group>"; };
+		93227B2A181ACDFF002BE6BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93227B2C181ACDFF002BE6BB /* MQTTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTKit.h; sourceTree = "<group>"; };
+		93227B2D181ACDFF002BE6BB /* MQTTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQTTKit.m; sourceTree = "<group>"; };
+		93227B2E181ACDFF002BE6BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		93227B2F181ACDFF002BE6BB /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93227B30181ACDFF002BE6BB /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		93227B31181ACDFF002BE6BB /* Pods-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		93227B32181ACDFF002BE6BB /* Pods-environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		93227B33181ACDFF002BE6BB /* Pods-MQTTKit-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-MQTTKit-dummy.m"; sourceTree = "<group>"; };
+		93227B34181ACDFF002BE6BB /* Pods-MQTTKit-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-MQTTKit-prefix.pch"; sourceTree = "<group>"; };
+		93227B35181ACDFF002BE6BB /* Pods-MQTTKit-Private.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-MQTTKit-Private.xcconfig"; sourceTree = "<group>"; };
+		93227B36181ACDFF002BE6BB /* Pods-MQTTKit.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-MQTTKit.xcconfig"; sourceTree = "<group>"; };
+		93227B37181ACDFF002BE6BB /* Pods-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		93227B38181ACDFF002BE6BB /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		93227B39181ACDFF002BE6BB /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		93227B3C181ACDFF002BE6BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		939333E5181A9B1E00B50CA8 /* MQTTExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939333E8181A9B1E00B50CA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		939333EA181A9B1E00B50CA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		939333EC181A9B1E00B50CA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		939333F0181A9B1E00B50CA8 /* MQTTExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MQTTExample-Info.plist"; sourceTree = "<group>"; };
+		939333F2181A9B1E00B50CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		939333F4181A9B1E00B50CA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		939333F6181A9B1E00B50CA8 /* MQTTExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQTTExample-Prefix.pch"; sourceTree = "<group>"; };
+		939333F7181A9B1E00B50CA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		939333F8181A9B1E00B50CA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		939333FB181A9B1E00B50CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		939333FD181A9B1E00B50CA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		939333FE181A9B1E00B50CA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93933400181A9B1E00B50CA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93933406181A9B1E00B50CA8 /* MQTTExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93933407181A9B1E00B50CA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9393340F181A9B1E00B50CA8 /* MQTTExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MQTTExampleTests-Info.plist"; sourceTree = "<group>"; };
+		93933411181A9B1E00B50CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93933413181A9B1E00B50CA8 /* MQTTExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTExampleTests.m; sourceTree = "<group>"; };
+		AC799EBD6C1F4626A2A10CF3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939333E2181A9B1E00B50CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939333EB181A9B1E00B50CA8 /* CoreGraphics.framework in Frameworks */,
+				939333ED181A9B1E00B50CA8 /* UIKit.framework in Frameworks */,
+				939333E9181A9B1E00B50CA8 /* Foundation.framework in Frameworks */,
+				817BC2070D674A43BDE466E4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93933403181A9B1E00B50CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93933408181A9B1E00B50CA8 /* XCTest.framework in Frameworks */,
+				9393340A181A9B1E00B50CA8 /* UIKit.framework in Frameworks */,
+				93933409181A9B1E00B50CA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93227AD6181ACDFF002BE6BB /* MQTTExample */ = {
+			isa = PBXGroup;
+			children = (
+				93227AD7181ACDFF002BE6BB /* .gitignore */,
+				93227AD8181ACDFF002BE6BB /* LICENSE */,
+				93227AD9181ACDFF002BE6BB /* MQTTExample */,
+				93227AE6181ACDFF002BE6BB /* MQTTExample.xcodeproj */,
+				93227AE9181ACDFF002BE6BB /* MQTTExample.xcworkspace */,
+				93227AEA181ACDFF002BE6BB /* MQTTExampleTests */,
+				93227AEF181ACDFF002BE6BB /* Podfile */,
+				93227AF0181ACDFF002BE6BB /* Podfile.lock */,
+				93227AF1181ACDFF002BE6BB /* Pods */,
+				93227B3C181ACDFF002BE6BB /* README.md */,
+			);
+			name = MQTTExample;
+			sourceTree = "<group>";
+		};
+		93227AD9181ACDFF002BE6BB /* MQTTExample */ = {
+			isa = PBXGroup;
+			children = (
+				93227ADA181ACDFF002BE6BB /* AppDelegate.h */,
+				93227ADB181ACDFF002BE6BB /* AppDelegate.m */,
+				93227ADC181ACDFF002BE6BB /* Main.storyboard */,
+				93227ADE181ACDFF002BE6BB /* InfoPlist.strings */,
+				93227AE0181ACDFF002BE6BB /* Images.xcassets */,
+				93227AE1181ACDFF002BE6BB /* main.m */,
+				93227AE2181ACDFF002BE6BB /* MQTTExample-Info.plist */,
+				93227AE3181ACDFF002BE6BB /* MQTTExample-Prefix.pch */,
+				93227AE4181ACDFF002BE6BB /* ViewController.h */,
+				93227AE5181ACDFF002BE6BB /* ViewController.m */,
+			);
+			path = MQTTExample;
+			sourceTree = "<group>";
+		};
+		93227AE7181ACDFF002BE6BB /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93227AEA181ACDFF002BE6BB /* MQTTExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				93227AEB181ACDFF002BE6BB /* InfoPlist.strings */,
+				93227AED181ACDFF002BE6BB /* MQTTExampleTests-Info.plist */,
+				93227AEE181ACDFF002BE6BB /* MQTTExampleTests.m */,
+			);
+			path = MQTTExampleTests;
+			sourceTree = "<group>";
+		};
+		93227AF1181ACDFF002BE6BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93227AF2181ACDFF002BE6BB /* BuildHeaders */,
+				93227B04181ACDFF002BE6BB /* Headers */,
+				93227B07181ACDFF002BE6BB /* Local Podspecs */,
+				93227B09181ACDFF002BE6BB /* Manifest.lock */,
+				93227B0A181ACDFF002BE6BB /* MQTTKit */,
+				93227B2F181ACDFF002BE6BB /* Pods-acknowledgements.markdown */,
+				93227B30181ACDFF002BE6BB /* Pods-acknowledgements.plist */,
+				93227B31181ACDFF002BE6BB /* Pods-dummy.m */,
+				93227B32181ACDFF002BE6BB /* Pods-environment.h */,
+				93227B33181ACDFF002BE6BB /* Pods-MQTTKit-dummy.m */,
+				93227B34181ACDFF002BE6BB /* Pods-MQTTKit-prefix.pch */,
+				93227B35181ACDFF002BE6BB /* Pods-MQTTKit-Private.xcconfig */,
+				93227B36181ACDFF002BE6BB /* Pods-MQTTKit.xcconfig */,
+				93227B37181ACDFF002BE6BB /* Pods-resources.sh */,
+				93227B38181ACDFF002BE6BB /* Pods.xcconfig */,
+				93227B39181ACDFF002BE6BB /* Pods.xcodeproj */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93227AF2181ACDFF002BE6BB /* BuildHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				93227AF3181ACDFF002BE6BB /* MQTTKit */,
+			);
+			path = BuildHeaders;
+			sourceTree = "<group>";
+		};
+		93227AF3181ACDFF002BE6BB /* MQTTKit */ = {
+			isa = PBXGroup;
+			children = (
+				93227AF4181ACDFF002BE6BB /* config.h */,
+				93227AF5181ACDFF002BE6BB /* dummypthread.h */,
+				93227AF6181ACDFF002BE6BB /* logging_mosq.h */,
+				93227AF7181ACDFF002BE6BB /* memory_mosq.h */,
+				93227AF8181ACDFF002BE6BB /* messages_mosq.h */,
+				93227AF9181ACDFF002BE6BB /* mosquitto.h */,
+				93227AFA181ACDFF002BE6BB /* mosquitto_internal.h */,
+				93227AFB181ACDFF002BE6BB /* mqtt3_protocol.h */,
+				93227AFC181ACDFF002BE6BB /* MQTTKit.h */,
+				93227AFD181ACDFF002BE6BB /* net_mosq.h */,
+				93227AFE181ACDFF002BE6BB /* read_handle.h */,
+				93227AFF181ACDFF002BE6BB /* send_mosq.h */,
+				93227B00181ACDFF002BE6BB /* time_mosq.h */,
+				93227B01181ACDFF002BE6BB /* tls_mosq.h */,
+				93227B02181ACDFF002BE6BB /* util_mosq.h */,
+				93227B03181ACDFF002BE6BB /* will_mosq.h */,
+			);
+			path = MQTTKit;
+			sourceTree = "<group>";
+		};
+		93227B04181ACDFF002BE6BB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				93227B05181ACDFF002BE6BB /* MQTTKit */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		93227B05181ACDFF002BE6BB /* MQTTKit */ = {
+			isa = PBXGroup;
+			children = (
+				93227B06181ACDFF002BE6BB /* MQTTKit.h */,
+			);
+			path = MQTTKit;
+			sourceTree = "<group>";
+		};
+		93227B07181ACDFF002BE6BB /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				93227B08181ACDFF002BE6BB /* MQTTKit.podspec */,
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		93227B0A181ACDFF002BE6BB /* MQTTKit */ = {
+			isa = PBXGroup;
+			children = (
+				93227B0B181ACDFF002BE6BB /* libmosquitto */,
+				93227B2A181ACDFF002BE6BB /* LICENSE */,
+				93227B2B181ACDFF002BE6BB /* MQTTKit */,
+				93227B2E181ACDFF002BE6BB /* README.md */,
+			);
+			path = MQTTKit;
+			sourceTree = "<group>";
+		};
+		93227B0B181ACDFF002BE6BB /* libmosquitto */ = {
+			isa = PBXGroup;
+			children = (
+				93227B0C181ACDFF002BE6BB /* config.h */,
+				93227B0D181ACDFF002BE6BB /* dummypthread.h */,
+				93227B0E181ACDFF002BE6BB /* logging_mosq.c */,
+				93227B0F181ACDFF002BE6BB /* logging_mosq.h */,
+				93227B10181ACDFF002BE6BB /* memory_mosq.c */,
+				93227B11181ACDFF002BE6BB /* memory_mosq.h */,
+				93227B12181ACDFF002BE6BB /* messages_mosq.c */,
+				93227B13181ACDFF002BE6BB /* messages_mosq.h */,
+				93227B14181ACDFF002BE6BB /* mosquitto.c */,
+				93227B15181ACDFF002BE6BB /* mosquitto.h */,
+				93227B16181ACDFF002BE6BB /* mosquitto_internal.h */,
+				93227B17181ACDFF002BE6BB /* mqtt3_protocol.h */,
+				93227B18181ACDFF002BE6BB /* net_mosq.c */,
+				93227B19181ACDFF002BE6BB /* net_mosq.h */,
+				93227B1A181ACDFF002BE6BB /* read_handle.c */,
+				93227B1B181ACDFF002BE6BB /* read_handle.h */,
+				93227B1C181ACDFF002BE6BB /* read_handle_client.c */,
+				93227B1D181ACDFF002BE6BB /* read_handle_shared.c */,
+				93227B1E181ACDFF002BE6BB /* send_client_mosq.c */,
+				93227B1F181ACDFF002BE6BB /* send_mosq.c */,
+				93227B20181ACDFF002BE6BB /* send_mosq.h */,
+				93227B21181ACDFF002BE6BB /* thread_mosq.c */,
+				93227B22181ACDFF002BE6BB /* time_mosq.c */,
+				93227B23181ACDFF002BE6BB /* time_mosq.h */,
+				93227B24181ACDFF002BE6BB /* tls_mosq.c */,
+				93227B25181ACDFF002BE6BB /* tls_mosq.h */,
+				93227B26181ACDFF002BE6BB /* util_mosq.c */,
+				93227B27181ACDFF002BE6BB /* util_mosq.h */,
+				93227B28181ACDFF002BE6BB /* will_mosq.c */,
+				93227B29181ACDFF002BE6BB /* will_mosq.h */,
+			);
+			path = libmosquitto;
+			sourceTree = "<group>";
+		};
+		93227B2B181ACDFF002BE6BB /* MQTTKit */ = {
+			isa = PBXGroup;
+			children = (
+				93227B2C181ACDFF002BE6BB /* MQTTKit.h */,
+				93227B2D181ACDFF002BE6BB /* MQTTKit.m */,
+			);
+			path = MQTTKit;
+			sourceTree = "<group>";
+		};
+		93227B3A181ACDFF002BE6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93227B6C181ACDFF002BE6BB /* libPods.a */,
+				93227B6E181ACDFF002BE6BB /* libPods-MQTTKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939333DC181A9B1E00B50CA8 = {
+			isa = PBXGroup;
+			children = (
+				93227AD6181ACDFF002BE6BB /* MQTTExample */,
+				939333EE181A9B1E00B50CA8 /* MQTTExample */,
+				9393340D181A9B1E00B50CA8 /* MQTTExampleTests */,
+				939333E7181A9B1E00B50CA8 /* Frameworks */,
+				939333E6181A9B1E00B50CA8 /* Products */,
+				AC799EBD6C1F4626A2A10CF3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		939333E6181A9B1E00B50CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939333E5181A9B1E00B50CA8 /* MQTTExample.app */,
+				93933406181A9B1E00B50CA8 /* MQTTExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939333E7181A9B1E00B50CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939333E8181A9B1E00B50CA8 /* Foundation.framework */,
+				939333EA181A9B1E00B50CA8 /* CoreGraphics.framework */,
+				939333EC181A9B1E00B50CA8 /* UIKit.framework */,
+				93933407181A9B1E00B50CA8 /* XCTest.framework */,
+				1B375B1EC9454992ACF71C20 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		939333EE181A9B1E00B50CA8 /* MQTTExample */ = {
+			isa = PBXGroup;
+			children = (
+				939333F7181A9B1E00B50CA8 /* AppDelegate.h */,
+				939333F8181A9B1E00B50CA8 /* AppDelegate.m */,
+				939333FA181A9B1E00B50CA8 /* Main.storyboard */,
+				939333FD181A9B1E00B50CA8 /* ViewController.h */,
+				939333FE181A9B1E00B50CA8 /* ViewController.m */,
+				93933400181A9B1E00B50CA8 /* Images.xcassets */,
+				939333EF181A9B1E00B50CA8 /* Supporting Files */,
+			);
+			path = MQTTExample;
+			sourceTree = "<group>";
+		};
+		939333EF181A9B1E00B50CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				939333F0181A9B1E00B50CA8 /* MQTTExample-Info.plist */,
+				939333F1181A9B1E00B50CA8 /* InfoPlist.strings */,
+				939333F4181A9B1E00B50CA8 /* main.m */,
+				939333F6181A9B1E00B50CA8 /* MQTTExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9393340D181A9B1E00B50CA8 /* MQTTExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				93933413181A9B1E00B50CA8 /* MQTTExampleTests.m */,
+				9393340E181A9B1E00B50CA8 /* Supporting Files */,
+			);
+			path = MQTTExampleTests;
+			sourceTree = "<group>";
+		};
+		9393340E181A9B1E00B50CA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9393340F181A9B1E00B50CA8 /* MQTTExampleTests-Info.plist */,
+				93933410181A9B1E00B50CA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939333E4181A9B1E00B50CA8 /* MQTTExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93933417181A9B1E00B50CA8 /* Build configuration list for PBXNativeTarget "MQTTExample" */;
+			buildPhases = (
+				4AD545F1300F4C2FAB9F8045 /* Check Pods Manifest.lock */,
+				939333E1181A9B1E00B50CA8 /* Sources */,
+				939333E2181A9B1E00B50CA8 /* Frameworks */,
+				939333E3181A9B1E00B50CA8 /* Resources */,
+				E58E3471A4F947949B005080 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQTTExample;
+			productName = MQTTExample;
+			productReference = 939333E5181A9B1E00B50CA8 /* MQTTExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93933405181A9B1E00B50CA8 /* MQTTExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9393341A181A9B1E00B50CA8 /* Build configuration list for PBXNativeTarget "MQTTExampleTests" */;
+			buildPhases = (
+				93933402181A9B1E00B50CA8 /* Sources */,
+				93933403181A9B1E00B50CA8 /* Frameworks */,
+				93933404181A9B1E00B50CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9393340C181A9B1E00B50CA8 /* PBXTargetDependency */,
+			);
+			name = MQTTExampleTests;
+			productName = MQTTExampleTests;
+			productReference = 93933406181A9B1E00B50CA8 /* MQTTExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939333DD181A9B1E00B50CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jeff Mesnil";
+				TargetAttributes = {
+					93933405181A9B1E00B50CA8 = {
+						TestTargetID = 939333E4181A9B1E00B50CA8;
+					};
+				};
+			};
+			buildConfigurationList = 939333E0181A9B1E00B50CA8 /* Build configuration list for PBXProject "MQTTExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 939333DC181A9B1E00B50CA8;
+			productRefGroup = 939333E6181A9B1E00B50CA8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93227AE7181ACDFF002BE6BB /* Products */;
+					ProjectRef = 93227AE6181ACDFF002BE6BB /* MQTTExample.xcodeproj */;
+				},
+				{
+					ProductGroup = 93227B3A181ACDFF002BE6BB /* Products */;
+					ProjectRef = 93227B39181ACDFF002BE6BB /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				939333E4181A9B1E00B50CA8 /* MQTTExample */,
+				93933405181A9B1E00B50CA8 /* MQTTExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		93227B6C181ACDFF002BE6BB /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 93227B6B181ACDFF002BE6BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93227B6E181ACDFF002BE6BB /* libPods-MQTTKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-MQTTKit.a";
+			remoteRef = 93227B6D181ACDFF002BE6BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939333E3181A9B1E00B50CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93227B3D181ACDFF002BE6BB /* .gitignore in Resources */,
+				93227B42181ACDFF002BE6BB /* Images.xcassets in Resources */,
+				93227B41181ACDFF002BE6BB /* InfoPlist.strings in Resources */,
+				93227B61181ACDFF002BE6BB /* Pods-acknowledgements.plist in Resources */,
+				93933401181A9B1E00B50CA8 /* Images.xcassets in Resources */,
+				939333F3181A9B1E00B50CA8 /* InfoPlist.strings in Resources */,
+				93227B44181ACDFF002BE6BB /* MQTTExample-Info.plist in Resources */,
+				93227B65181ACDFF002BE6BB /* Pods-MQTTKit.xcconfig in Resources */,
+				93227B5F181ACDFF002BE6BB /* README.md in Resources */,
+				93227B4B181ACDFF002BE6BB /* Podfile.lock in Resources */,
+				93227B67181ACDFF002BE6BB /* Pods.xcconfig in Resources */,
+				93227B40181ACDFF002BE6BB /* Main.storyboard in Resources */,
+				93227B68181ACDFF002BE6BB /* README.md in Resources */,
+				93227B5D181ACDFF002BE6BB /* LICENSE in Resources */,
+				93227B60181ACDFF002BE6BB /* Pods-acknowledgements.markdown in Resources */,
+				93227B46181ACDFF002BE6BB /* MQTTExample.xcworkspace in Resources */,
+				93227B64181ACDFF002BE6BB /* Pods-MQTTKit-Private.xcconfig in Resources */,
+				939333FC181A9B1E00B50CA8 /* Main.storyboard in Resources */,
+				93227B66181ACDFF002BE6BB /* Pods-resources.sh in Resources */,
+				93227B4A181ACDFF002BE6BB /* Podfile in Resources */,
+				93227B4D181ACDFF002BE6BB /* Manifest.lock in Resources */,
+				93227B47181ACDFF002BE6BB /* InfoPlist.strings in Resources */,
+				93227B4C181ACDFF002BE6BB /* MQTTKit.podspec in Resources */,
+				93227B3E181ACDFF002BE6BB /* LICENSE in Resources */,
+				93227B48181ACDFF002BE6BB /* MQTTExampleTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93933404181A9B1E00B50CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93933412181A9B1E00B50CA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD545F1300F4C2FAB9F8045 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E58E3471A4F947949B005080 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939333E1181A9B1E00B50CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93227B57181ACDFF002BE6BB /* send_mosq.c in Sources */,
+				93227B45181ACDFF002BE6BB /* ViewController.m in Sources */,
+				93227B52181ACDFF002BE6BB /* net_mosq.c in Sources */,
+				93227B50181ACDFF002BE6BB /* messages_mosq.c in Sources */,
+				93227B51181ACDFF002BE6BB /* mosquitto.c in Sources */,
+				93227B43181ACDFF002BE6BB /* main.m in Sources */,
+				93227B4F181ACDFF002BE6BB /* memory_mosq.c in Sources */,
+				93227B5B181ACDFF002BE6BB /* util_mosq.c in Sources */,
+				93227B3F181ACDFF002BE6BB /* AppDelegate.m in Sources */,
+				93227B59181ACDFF002BE6BB /* time_mosq.c in Sources */,
+				93227B5A181ACDFF002BE6BB /* tls_mosq.c in Sources */,
+				939333FF181A9B1E00B50CA8 /* ViewController.m in Sources */,
+				93227B5E181ACDFF002BE6BB /* MQTTKit.m in Sources */,
+				939333F9181A9B1E00B50CA8 /* AppDelegate.m in Sources */,
+				93227B53181ACDFF002BE6BB /* read_handle.c in Sources */,
+				93227B56181ACDFF002BE6BB /* send_client_mosq.c in Sources */,
+				93227B54181ACDFF002BE6BB /* read_handle_client.c in Sources */,
+				93227B4E181ACDFF002BE6BB /* logging_mosq.c in Sources */,
+				939333F5181A9B1E00B50CA8 /* main.m in Sources */,
+				93227B58181ACDFF002BE6BB /* thread_mosq.c in Sources */,
+				93227B49181ACDFF002BE6BB /* MQTTExampleTests.m in Sources */,
+				93227B55181ACDFF002BE6BB /* read_handle_shared.c in Sources */,
+				93227B62181ACDFF002BE6BB /* Pods-dummy.m in Sources */,
+				93227B63181ACDFF002BE6BB /* Pods-MQTTKit-dummy.m in Sources */,
+				93227B5C181ACDFF002BE6BB /* will_mosq.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93933402181A9B1E00B50CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93933414181A9B1E00B50CA8 /* MQTTExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9393340C181A9B1E00B50CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939333E4181A9B1E00B50CA8 /* MQTTExample */;
+			targetProxy = 9393340B181A9B1E00B50CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93227ADC181ACDFF002BE6BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93227ADD181ACDFF002BE6BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93227ADE181ACDFF002BE6BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93227ADF181ACDFF002BE6BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93227AEB181ACDFF002BE6BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93227AEC181ACDFF002BE6BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		939333F1181A9B1E00B50CA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939333F2181A9B1E00B50CA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		939333FA181A9B1E00B50CA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939333FB181A9B1E00B50CA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93933410181A9B1E00B50CA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93933411181A9B1E00B50CA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93933415181A9B1E00B50CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93933416181A9B1E00B50CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93933418181A9B1E00B50CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC799EBD6C1F4626A2A10CF3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTExample/MQTTExample-Prefix.pch";
+				INFOPLIST_FILE = "MQTTExample/MQTTExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93933419181A9B1E00B50CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC799EBD6C1F4626A2A10CF3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTExample/MQTTExample-Prefix.pch";
+				INFOPLIST_FILE = "MQTTExample/MQTTExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9393341B181A9B1E00B50CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MQTTExample.app/MQTTExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTExample/MQTTExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MQTTExampleTests/MQTTExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9393341C181A9B1E00B50CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MQTTExample.app/MQTTExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MQTTExample/MQTTExample-Prefix.pch";
+				INFOPLIST_FILE = "MQTTExampleTests/MQTTExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939333E0181A9B1E00B50CA8 /* Build configuration list for PBXProject "MQTTExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93933415181A9B1E00B50CA8 /* Debug */,
+				93933416181A9B1E00B50CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93933417181A9B1E00B50CA8 /* Build configuration list for PBXNativeTarget "MQTTExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93933418181A9B1E00B50CA8 /* Debug */,
+				93933419181A9B1E00B50CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9393341A181A9B1E00B50CA8 /* Build configuration list for PBXNativeTarget "MQTTExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9393341B181A9B1E00B50CA8 /* Debug */,
+				9393341C181A9B1E00B50CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939333DD181A9B1E00B50CA8 /* Project object */;
+}

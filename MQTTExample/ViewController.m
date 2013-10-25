@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "AppDelegate.h"
 
-#define kTopic @"/MQTTExample/LED"
+#define kTopic @"MQTTExample/LED"
 
 @implementation ViewController
 
