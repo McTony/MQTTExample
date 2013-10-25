@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,8 @@
     self.mqttClient = [[MQTTClient alloc] initWithClientId:[[NSUUID UUID] UUIDString]];
     // Override point for customization after application launch.
     [self.mqttClient connectToHost:@"m2m.eclipse.org"];
+    self.mqttClient.delegate = self.window.rootViewController;
+
     return YES;
 }
 

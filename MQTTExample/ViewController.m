@@ -15,11 +15,6 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 - (IBAction)switchUpdated:(id)sender {
     AppDelegate *app = [[UIApplication sharedApplication] delegate];
     BOOL on = [sender isOn];
@@ -29,10 +24,20 @@
                            retain:YES];
 }
 
-- (void)didReceiveMemoryWarning
+
+#pragma mark - MQTTClientDelegate
+
+- (void)client:(MQTTClient *)client didConnect:(NSUInteger)code
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [client subscribe:@"MQTTExample/LED"];
+}
+
+- (void)client:(MQTTClient *)client didReceiveMessage:(MQTTMessage *)message
+{
+    BOOL on =[message.payload boolValue];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.subscribedSwitch setOn:on animated:YES];
+    });
 }
 
 @end

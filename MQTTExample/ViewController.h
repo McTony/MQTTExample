@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MQTTKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UISwitch *ledSwitch;
+@interface ViewController : UIViewController<MQTTClientDelegate>
+
+@property (weak, nonatomic) IBOutlet UISwitch *subscribedSwitch;
 
 @end
