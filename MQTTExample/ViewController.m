@@ -10,9 +10,6 @@
 #import "AppDelegate.h"
 
 #define kTopic @"/MQTTExample/LED"
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
@@ -36,6 +33,8 @@
 - (void)client:(MQTTClient *)client didReceiveMessage:(MQTTMessage *)message
 {
     BOOL on =[message.payload boolValue];
+    // the MQTTClientDelegate methods are called from a GCD queue.
+    // Any update to the UI must be done on the main queue
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.subscribedSwitch setOn:on animated:YES];
     });

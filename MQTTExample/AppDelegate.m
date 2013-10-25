@@ -17,7 +17,7 @@
 {
     self.mqttClient = [[MQTTClient alloc] initWithClientId:[[NSUUID UUID] UUIDString]];
     // Override point for customization after application launch.
-    [self.mqttClient connectToHost:@"m2m.eclipse.org"];
+    self.mqttClient.host = @"m2m.eclipse.org";
     self.mqttClient.delegate = (ViewController *)self.window.rootViewController;
 
     return YES;
@@ -46,7 +46,7 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [self.mqttClient reconnect];
+    [self.mqttClient connect];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
